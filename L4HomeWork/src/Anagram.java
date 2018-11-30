@@ -18,11 +18,10 @@ public class Anagram {
         String s2 = toSortLetters(str2);
         System.out.println(s1);
         System.out.println(s2);
-        System.out.println(s1.equals(s2));
-        return true;
+        return s1.equals(s2);
     }
 
     public static void main(String[] args) {
-       isAngram("ка-мы,.,.ш ап", ",.,па,.м,.ы,. шка");
+        System.out.println(isAngram("ка-мы,.,.ш ап", ",.,па,.м,.ы,. шка"));
     }
 }
