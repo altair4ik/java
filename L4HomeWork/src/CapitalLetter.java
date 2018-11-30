@@ -2,16 +2,14 @@ import java.util.Scanner;
 
 public class CapitalLetter {
     static String toUpperFirstLetter(String str) {
-        StringBuilder sb = new StringBuilder();
         char[] strChar = str.toCharArray();
         strChar[0] = Character.toUpperCase(strChar[0]);
         for (int i = 0; i < strChar.length; i++) {
-            if (strChar[i] == ' ') {
+            if (strChar[i] == ' ' && i != strChar.length-1) {
                 strChar[i+1] = Character.toUpperCase(strChar[i+1]);
             }
-            sb.append(strChar[i]);
         }
-        return sb.toString();
+        return new String(strChar);
     }
 
     public static void main(String[] args) {
