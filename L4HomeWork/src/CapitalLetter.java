@@ -2,25 +2,15 @@ import java.util.Scanner;
 
 public class CapitalLetter {
     static String toUpperFirstLetter(String str) {
-        String[] strParts = str.split("");
-        strParts[0] = strParts[0].toUpperCase();
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < strParts.length; i++) {
-            sb.append(strParts[i]);
-            if (i == strParts.length -1) {
-                sb.append(" ");
+        char[] strChar = str.toCharArray();
+        strChar[0] = Character.toUpperCase(strChar[0]);
+        for (int i = 0; i < strChar.length; i++) {
+            if (strChar[i] == ' ') {
+                strChar[i+1] = Character.toUpperCase(strChar[i+1]);
             }
+            sb.append(strChar[i]);
         }
-        return sb.toString();
-    }
-
-    static String toUpperFirstLetterString(String str) {
-        String[] strParts = str.split(" ");
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < strParts.length; i++) {
-            sb.append(toUpperFirstLetter(strParts[i]));
-        }
-        sb.delete(sb.length() - 1, sb.length());
         return sb.toString();
     }
 
@@ -30,6 +20,6 @@ public class CapitalLetter {
         System.out.println("Введите строку");
         String str = in.nextLine();
         System.out.println(str);
-        System.out.println(toUpperFirstLetterString(str));
+        System.out.println(toUpperFirstLetter(str));
     }
 }
