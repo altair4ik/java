@@ -1,5 +1,6 @@
 import Bus.Bus;
 import BusStop.BusStop;
+import Dog.Dog;
 import Human.Human;
 
 public class Main {
@@ -14,7 +15,8 @@ public class Main {
 
         bus.goToBusStop(busStop1, busStop2);
         bus.stop(busStop2);
-        Human vasya = new Human("Вася", "бобик");
+        Dog bobik = new Dog("бобик");
+        Human vasya = new Human("Вася", bobik);
         vasya.goToBus(bus);
         bus.goToBusStop(busStop2, busStop3);
 

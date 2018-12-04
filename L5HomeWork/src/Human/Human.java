@@ -22,12 +22,12 @@ public class Human {
     /**
      *
      * @param name - имя человека
-     * @param dogName - кличка его собаки
+     * @param dog - кличка его собаки
      */
 
-    public Human(String name, String dogName) {
+    public Human(String name, Dog dog) {
         this.name = name;
-        this.dog = new Dog(dogName);
+        this.dog = dog;
     }
 
     /**

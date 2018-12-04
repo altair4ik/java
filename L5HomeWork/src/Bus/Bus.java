@@ -3,7 +3,7 @@ package Bus;
 import BusStop.BusStop;
 
 /**
- * Клас создающий автобус
+ * Клас описывающий автобус
  */
 
 public class Bus {
