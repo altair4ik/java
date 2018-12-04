@@ -1,6 +1,6 @@
-package Bus;
+package bus;
 
-import BusStop.BusStop;
+import busstop.BusStop;
 
 /**
  * Клас описывающий автобус

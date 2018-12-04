@@ -1,6 +1,6 @@
-package Dog;
+package busstop;
 
-public class Dog {
+public class BusStop {
     private String name;
 
     public String getName() {
@@ -9,9 +9,10 @@ public class Dog {
 
     /**
      *
-     * @param name - кличка собаки
+     * @param name - название остановки
      */
-    public Dog(String name) {
+
+    public BusStop(String name) {
         this.name = name;
     }
 }

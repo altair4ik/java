@@ -1,7 +1,7 @@
-package Human;
+package human;
 
-import Bus.Bus;
-import Dog.Dog;
+import bus.Bus;
+import dog.Dog;
 
 public class Human {
     private String name;

@@ -1,7 +1,7 @@
-import Bus.Bus;
-import BusStop.BusStop;
-import Dog.Dog;
-import Human.Human;
+import bus.Bus;
+import busstop.BusStop;
+import dog.Dog;
+import human.Human;
 
 public class Main {
     public static void main(String[] args) {
