@@ -7,7 +7,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         Volvo volvo = new Volvo(4, "black", "sport", "beep-beep");
         Bmw bmw = new Bmw(4, "yellow", "buggy", "white");
 
@@ -24,11 +24,10 @@ public class Main {
         System.out.println(clazz.getName());
 
         Method[] methods = clazz.getDeclaredMethods();
-
         Class clazzVolvo = Class.forName("machine.Volvo");
-        Constructor constructorVolvo = clazzVolvo.getDeclaredConstructor(new Class[] {Integer.class, String.class, String.class});
-        //Object v = constructorVolvo.newInstance(new Object[]{7, "green", "f1", "bi-bi-p"});
-        //System.out.println("Рефлексия " + v);
+        Constructor constructorVolvo = clazzVolvo.getDeclaredConstructor(int.class, String.class, String.class, String.class);
+        Object v = constructorVolvo.newInstance(new Object[]{7, "green", "f1", "bi-bi-p"});
+        System.out.println("Рефлексия " + v);
 
         for (Method method: methods) {
             System.out.println(method);
