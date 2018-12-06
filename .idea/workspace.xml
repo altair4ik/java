@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a118bf-9d31-45a1-a389-6384b51228d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Aquaman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Operationable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Shot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Superman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7HomeWork/src/game/Swim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11a118bf-9d31-45a1-a389-6384b51228d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +19,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Aquaman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="304">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="116" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
               </folding>
@@ -51,13 +39,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Superman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="304">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
               </folding>
@@ -74,11 +60,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L7HomeWork/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="114">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,15 +112,15 @@
         <option value="$PROJECT_DIR$/L7HomeWork/src/Swim.java" />
         <option value="$PROJECT_DIR$/L7HomeWork/src/game/Swim.java" />
         <option value="$PROJECT_DIR$/L7HomeWork/src/game/Aquman.java" />
-        <option value="$PROJECT_DIR$/L7HomeWork/src/Main.java" />
-        <option value="$PROJECT_DIR$/L7HomeWork/src/game/Superman.java" />
         <option value="$PROJECT_DIR$/L7HomeWork/src/game/Hero.java" />
         <option value="$PROJECT_DIR$/L7HomeWork/src/game/Operationable.java" />
         <option value="$PROJECT_DIR$/L7HomeWork/src/game/Aquaman.java" />
+        <option value="$PROJECT_DIR$/L7HomeWork/src/game/Superman.java" />
+        <option value="$PROJECT_DIR$/L7HomeWork/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1556" />
     <option name="y" value="77" />
     <option name="width" value="1279" />
@@ -178,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544090284487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544090340179" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -259,18 +248,17 @@
       <workItem from="1543825471618" duration="4123000" />
       <workItem from="1543910593633" duration="13286000" />
       <workItem from="1543998160302" duration="4509000" />
-      <workItem from="1544087136549" duration="2073000" />
+      <workItem from="1544087136549" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46868000" />
+    <option name="totallyTimeSpent" value="47152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1430" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2642344" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2642344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,7 +267,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,9 +275,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32810867" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32810867" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3291536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,32 +504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L7HomeWork/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Superman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,15 +520,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Aquaman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="304">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="116" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L7HomeWork/src/game/Superman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L7HomeWork/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
