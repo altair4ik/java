@@ -1,10 +1,12 @@
 package game;
 
-public class Superman extends Hero implements Jump, Run {
+public class Superman extends Hero implements Jumper, Runner {
     private String name;
+    private int power;
 
-    public Superman(String name) {
+    public Superman(String name, int power) {
         this.name = name;
+        this.power = power;
     }
 
     @Override
@@ -13,10 +15,8 @@ public class Superman extends Hero implements Jump, Run {
     }
 
     @Override
-    public void superPower(int power) {
-        Operationable operation;
-        operation = (x) -> x*x;
-        System.out.println(this.name + ": Суперсила!!! Быстро Бежит!!!" + " Мощность - " + operation.power(power));
+    public void superPower(Operationable operation) {
+        System.out.println(this.name + ": Суперсила!!! Быстро Бежит!!!" + " Мощность: " + operation.power(this.power));
     }
 
     @Override

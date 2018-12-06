@@ -1,10 +1,12 @@
 package game;
 
-public class Aquaman extends Hero implements Swim, Shot {
+public class Aquaman extends Hero implements Swimmer, Shoter {
     private String name;
+    private int power;
 
-    public Aquaman(String name) {
+    public Aquaman(String name, int power) {
         this.name = name;
+        this.power = power;
     }
 
     @Override
@@ -13,10 +15,8 @@ public class Aquaman extends Hero implements Swim, Shot {
     }
 
     @Override
-    public void superPower(int power) {
-        Operationable operation;
-        operation = (x) -> x*x;
-        System.out.println(this.name + ": Суперсила!!! Быстро плывет!!!" + " Мощность - " + operation.power(power));
+    public void superPower(Operationable operation) {
+        System.out.println(this.name + ": Суперсила!!! Быстро плывет!!!" + " Мощность: " + operation.power(this.power));
     }
 
     @Override

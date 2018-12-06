@@ -1,5 +1,5 @@
 package game;
 
-public interface Shot {
+public interface Shoter {
     public void shot();
 }

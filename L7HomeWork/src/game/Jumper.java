@@ -1,5 +1,5 @@
 package game;
 
-public interface Jump {
+public interface Jumper {
     public void jump();
 }

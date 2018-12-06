@@ -1,5 +1,5 @@
 package game;
 
-public interface Swim {
+public interface Swimmer {
     public void swim();
 }

@@ -1,5 +1,5 @@
 package game;
 
-public interface Run {
+public interface Runner {
     public void run();
 }
